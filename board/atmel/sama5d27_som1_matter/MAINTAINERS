@@ -1,0 +1,8 @@
+SAMA5D27 SOM1 EK BOARD
+M:	Eugen Hristev <eugen.hristev@microchip.com>
+S:	Maintained
+F:	board/atmel/sama5d27_som1_matter/
+F:	include/configs/sama5d27_som1_matter.h
+F:	configs/sama5d27_som1_matter_mmc_defconfig
+F:	configs/sama5d27_som1_matter_mmc1_defconfig
+F:	configs/sama5d27_som1_matter_qspiflash_defconfig
