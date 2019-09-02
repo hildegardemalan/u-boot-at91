@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0+ */
 /*
- * Configuration file for the SAMA5D27 SOM1 EK Board.
+ * Configuration file for the SAMA5D27 SOM1 MATTER Board.
  *
  * Copyright (C) 2017 Microchip Corporation
  *		      Wenyou Yang <wenyou.yang@microchip.com>
@@ -37,7 +37,7 @@
 /* u-boot env in sd/mmc card */
 #define CONFIG_ENV_SIZE		0x4000
 /* bootstrap + u-boot + env in sd card */
-#define CONFIG_BOOTCOMMAND	"fatload mmc 1:1 0x21000000 at91-sama5d27_som1_ek.dtb; " \
+#define CONFIG_BOOTCOMMAND	"fatload mmc 1:1 0x21000000 at91-sama5d27_som1_matter.dtb; " \
 				"fatload mmc 1:1 0x22000000 zImage; " \
 				"bootz 0x22000000 - 0x21000000"
 #endif
