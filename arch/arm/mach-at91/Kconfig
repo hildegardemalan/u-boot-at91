@@ -180,6 +180,19 @@ config TARGET_SAMA5D27_SOM1_EK
 	  processor-based SAMA5D2 MPU with up to 1 Gbit DDR2-SDRAM
 	  in a single package.
 
+config TARGET_SAMA5D27_SOM1_MATTER
+	bool "SAMA5D27 SOM1 MATTER board"
+	select BOARD_EARLY_INIT_F
+	select BOARD_LATE_INIT
+	select CPU_V7A
+	select SUPPORT_SPL
+	help
+	  The SAMA5D27 SOM1 embeds SAMA5D2 SiP(System in Package),
+	  a 64Mbit QSPI flash, KSZ8081 Phy and a Mac-address EEPROM
+	  24AA02E48. The SAMA5D2 SiP integrates the ARM Cortex-A5
+	  processor-based SAMA5D2 MPU with up to 1 Gbit DDR2-SDRAM
+	  in a single package.
+
 config TARGET_SAMA5D2_ICP
 	bool "SAMA5D2 Industrial Connectivity Platform (ICP)"
 	select CPU_V7A
